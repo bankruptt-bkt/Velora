@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VELORA — Luxury Clean Skincare & Rituals</title>
+  
+  <!-- Google Fonts: Cormorant Garamond (Editorial Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 1. ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <p>FREE SHIPPING ON ALL ORDERS OVER $50 • COMPLIMENTARY SAMPLES WITH EVERY PURCHASE</p>
+  </div>
+
+  <!-- 2. MINIMAL NAVIGATION -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="#" class="brand-logo">VELORA</a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#shop" class="nav-link">SHOP</a>
+        <a href="#bestsellers" class="nav-link">BEST SELLERS</a>
+        <a href="#philosophy" class="nav-link">OUR PHILOSOPHY</a>
+        <a href="#journal" class="nav-link">JOURNAL</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </button>
+        <button class="icon-btn" aria-label="Account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        </button>
+        <button class="icon-btn cart-btn" id="cart-toggle" aria-label="Shopping Bag">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="cart-count" id="cart-count">0</span>
+        </button>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. EDITORIAL HERO SECTION -->
+  <section class="hero-section">
+    <div class="hero-content fade-up">
+      <span class="eyebrow">HIGH-PERFORMANCE BOTANICAL ESSENTIALS</span>
+      <h1 class="hero-title">SKIN, BUT<br><em>BETTER.</em></h1>
+      <p class="hero-subheading">High-performance clean beauty formulated to elevate your daily skincare ritual into pure tactile indulgence.</p>
+      <div class="hero-cta-group">
+        <a href="#bestsellers" class="btn btn-primary">SHOP THE COLLECTION</a>
+        <a href="#philosophy" class="btn btn-outline">DISCOVER VELORA</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="product-badge">AUTUMN 2026 EDITION</div>
+      <div class="floating-visual">
+        <img src="https://images.unsplash.com/photo-1608248597359-25f0a8db68a7?auto=format&fit=crop&w=900&q=85" alt="Velora Glass Dropper Dew Drop Serum" class="hero-product-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. MARQUEE / RUNNING TEXT -->
+  <div class="marquee-wrapper">
+    <div class="marquee-track">
+      <span>CLEAN BEAUTY • REAL INGREDIENTS • REAL RESULTS • FEEL GOOD IN YOUR SKIN •&nbsp;</span>
+      <span>CLEAN BEAUTY • REAL INGREDIENTS • REAL RESULTS • FEEL GOOD IN YOUR SKIN •&nbsp;</span>
+      <span>CLEAN BEAUTY • REAL INGREDIENTS • REAL RESULTS • FEEL GOOD IN YOUR SKIN •&nbsp;</span>
+      <span>CLEAN BEAUTY • REAL INGREDIENTS • REAL RESULTS • FEEL GOOD IN YOUR SKIN •&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- 5. BEST SELLERS SECTION -->
+  <section class="section bestsellers-section" id="bestsellers">
+    <div class="container">
+      <div class="section-header-editorial fade-up">
+        <div class="header-left">
+          <span class="eyebrow">CURATED FORMULATIONS</span>
+          <h2 class="serif-title">THE OBSESSION</h2>
+        </div>
+        <p class="section-note">Clinically formulated, sustainably sourced, and obsessively refined for high-impact radiance.</p>
+      </div>
+
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <article class="product-card fade-up">
+          <div class="product-thumb">
+            <span class="tag">AWARD WINNER</span>
+            <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80" alt="Dew Drop Serum" loading="lazy" />
+            <button class="quick-add-btn" data-name="Dew Drop Serum" data-price="38">+ QUICK ADD — $38</button>
+          </div>
+          <div class="product-meta">
+            <div class="meta-row">
+              <h3 class="product-title">Dew Drop Serum</h3>
+              <span class="product-price">$38</span>
+            </div>
+            <p class="product-desc">Concentrated multi-weight Hyaluronic Acid and Peptides for 72-hour moisture plumping.</p>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="product-card fade-up">
+          <div class="product-thumb">
+            <img src="https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?auto=format&fit=crop&w=800&q=80" alt="Cloud Cream Moisturizer" loading="lazy" />
+            <button class="quick-add-btn" data-name="Cloud Cream Moisturizer" data-price="42">+ QUICK ADD — $42</button>
+          </div>
+          <div class="product-meta">
+            <div class="meta-row">
+              <h3 class="product-title">Cloud Cream Moisturizer</h3>
+              <span class="product-price">$42</span>
+            </div>
+            <p class="product-desc">Featherweight barrier infusion fortified with triple Ceramide complexes and Squalane.</p>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="product-card fade-up">
+          <div class="product-thumb">
+            <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80" alt="Velvet Cleanser" loading="lazy" />
+            <button class="quick-add-btn" data-name="Velvet Cleanser" data-price="28">+ QUICK ADD — $28</button>
+          </div>
+          <div class="product-meta">
+            <div class="meta-row">
+              <h3 class="product-title">Velvet Cleanser</h3>
+              <span class="product-price">$28</span>
+            </div>
+            <p class="product-desc">Gentle pH 5.5 silk jelly that purifies impurities without compromising essential skin oils.</p>
+          </div>
+        </article>
+
+        <!-- Product 4 -->
+        <article class="product-card fade-up">
+          <div class="product-thumb">
+            <span class="tag">CULT CLASSIC</span>
+            <img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=800&q=80" alt="Glow Barrier Oil" loading="lazy" />
+            <button class="quick-add-btn" data-name="Glow Barrier Oil" data-price="45">+ QUICK ADD — $45</button>
+          </div>
+          <div class="product-meta">
+            <div class="meta-row">
+              <h3 class="product-title">Glow Barrier Oil</h3>
+              <span class="product-price">$45</span>
+            </div>
+            <p class="product-desc">Cold-pressed botanical nectar packed with Rosehip, Marula, and antioxidant Vitamin C.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. EDITORIAL IMAGE SECTION (SPLIT) -->
+  <section class="editorial-split" id="philosophy">
+    <div class="split-col split-visual fade-up">
+      <img src="https://images.unsplash.com/photo-1512290900672-1f48ba63b27b?auto=format&fit=crop&w=1200&q=85" alt="Clean Skincare Texture Macro" loading="lazy" />
+      <div class="overlay-quote">
+        <span>"Tactile luxury with radical transparency."</span>
+      </div>
+    </div>
+    <div class="split-col split-content fade-up">
+      <span class="eyebrow">OUR TRANSPARENCY MANIFESTO</span>
+      <h2 class="serif-title">BEAUTY WITHOUT THE BULLSH*T.</h2>
+      <p class="editorial-p">We created VELORA out of pure frustration with 12-step routines loaded with fillers, silicones, and false promises. Clean beauty shouldn't be about fear; it should be about uncompromised performance.</p>
+      <p class="editorial-p">Every active compound in our line is strictly clinically tested, bio-compatible, and ethically extracted. Zero synthetic dyes, zero harsh parabens, zero compromises.</p>
+      <div class="action-wrap">
+        <a href="#ingredients" class="btn btn-primary">OUR PHILOSOPHY</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. INGREDIENTS SECTION -->
+  <section class="section ingredients-section" id="ingredients">
+    <div class="container">
+      <div class="section-center-header fade-up">
+        <span class="eyebrow">TRANSPARENT SOURCING</span>
+        <h2 class="serif-title">ONLY THE GOOD STUFF.</h2>
+        <p class="sub-lead">Science-backed bio-actives working in harmony with your dermal architecture.</p>
+      </div>
+
+      <div class="ingredient-grid">
+        <div class="ingredient-card fade-up">
+          <div class="card-num">01</div>
+          <h3 class="ing-title">NIACINAMIDE 5%</h3>
+          <p class="ing-desc">Brightens stubborn tone differences, shrinks visible pore contours, and strengthens intercellular lipids.</p>
+          <span class="ing-benefit">Radiance + Clarifying</span>
+        </div>
+
+        <div class="ingredient-card fade-up">
+          <div class="card-num">02</div>
+          <h3 class="ing-title">HYALURONIC ACID</h3>
+          <p class="ing-desc">Triple molecular weights penetrate multiple skin depths for intense, long-lasting surface plumping.</p>
+          <span class="ing-benefit">Deep Cellular Hydration</span>
+        </div>
+
+        <div class="ingredient-card fade-up">
+          <div class="card-num">03</div>
+          <h3 class="ing-title">CERAMIDES NP & AP</h3>
+          <p class="ing-desc">Mimics your skin's natural lipid structure to fortify the barrier against environmental pollutants.</p>
+          <span class="ing-benefit">Skin Barrier Fortification</span>
+        </div>
+
+        <div class="ingredient-card fade-up">
+          <div class="card-num">04</div>
+          <h3 class="ing-title">VITAMIN C (THD ASCORBATE)</h3>
+          <p class="ing-desc">A highly stable, lipid-soluble vitamin C isomer that visibly boosts collagen production without irritation.</p>
+          <span class="ing-benefit">Collagen Synthesis</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. DARK CONTRAST DRAMATIC SECTION -->
+  <section class="dark-contrast-section">
+    <div class="contrast-container">
+      <div class="dark-typography fade-up">
+        <h2>YOUR SKIN.<br>YOUR RULES.</h2>
+        <p>No filters. No unrealistic perfection. Just healthy, glowing, resilient biology empowered by clean chemistry.</p>
+        <a href="#shop" class="btn btn-white">EXPLORE THE RITUAL</a>
+      </div>
+      <div class="dark-visual fade-up">
+        <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85" alt="Luxury Cosmetic Dropper on Black" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. SHOP BY CONCERN -->
+  <section class="section concern-section" id="shop">
+    <div class="container">
+      <div class="section-header-editorial fade-up">
+        <div class="header-left">
+          <span class="eyebrow">CUSTOMIZED REGIMENS</span>
+          <h2 class="serif-title">TARGET BY CONCERN</h2>
+        </div>
+        <p class="section-note">Find precisely targeted bio-actives for your exact dermal condition.</p>
+      </div>
+
+      <div class="concern-grid">
+        <a href="#bestsellers" class="concern-card fade-up" style="background-image: linear-gradient(180deg, rgba(17,17,17,0.15) 0%, rgba(17,17,17,0.7) 100%), url('https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=80');">
+          <div class="concern-overlay">
+            <span class="concern-tag">REGIMEN 01</span>
+            <h3 class="concern-name">GLOW</h3>
+            <span class="concern-link">EXPLORE PRODUCTS →</span>
+          </div>
+        </a>
+
+        <a href="#bestsellers" class="concern-card fade-up" style="background-image: linear-gradient(180deg, rgba(17,17,17,0.15) 0%, rgba(17,17,17,0.7) 100%), url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80');">
+          <div class="concern-overlay">
+            <span class="concern-tag">REGIMEN 02</span>
+            <h3 class="concern-name">HYDRATE</h3>
+            <span class="concern-link">EXPLORE PRODUCTS →</span>
+          </div>
+        </a>
+
+        <a href="#bestsellers" class="concern-card fade-up" style="background-image: linear-gradient(180deg, rgba(17,17,17,0.15) 0%, rgba(17,17,17,0.7) 100%), url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80');">
+          <div class="concern-overlay">
+            <span class="concern-tag">REGIMEN 03</span>
+            <h3 class="concern-name">REPAIR</h3>
+            <span class="concern-link">EXPLORE PRODUCTS →</span>
+          </div>
+        </a>
+
+        <a href="#bestsellers" class="concern-card fade-up" style="background-image: linear-gradient(180deg, rgba(17,17,17,0.15) 0%, rgba(17,17,17,0.7) 100%), url('https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80');">
+          <div class="concern-overlay">
+            <span class="concern-tag">REGIMEN 04</span>
+            <h3 class="concern-name">PROTECT</h3>
+            <span class="concern-link">EXPLORE PRODUCTS →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. TESTIMONIALS SECTION -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-center-header fade-up">
+        <span class="eyebrow">COMMUNITY PRAISE</span>
+        <h2 class="serif-title">REAL SKIN. REAL OBSESSIONS.</h2>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card fade-up">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"My skin has never looked this good. The Dew Drop Serum completely retextured my dry cheek patches in literally 48 hours."</p>
+          <div class="reviewer">— Emma R. <span class="verified">Verified Purchaser</span></div>
+        </div>
+
+        <div class="review-card fade-up">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"Cloud Cream is the only formula that calms my hormonal flare-ups without causing breakouts. Worth every single cent."</p>
+          <div class="reviewer">— Sophia M. <span class="verified">Verified Purchaser</span></div>
+        </div>
+
+        <div class="review-card fade-up">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"The editorial packaging is stunning on my vanity, but what's inside is actual botanical gold. I am utterly hooked."</p>
+          <div class="reviewer">— Camille D. <span class="verified">Verified Purchaser</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. SOCIAL GRID -->
+  <section class="social-section" id="journal">
+    <div class="container">
+      <div class="section-header-editorial fade-up">
+        <div class="header-left">
+          <span class="eyebrow">JOIN OUR COMMUNITY</span>
+          <h2 class="serif-title">VELORA IN THE WILD</h2>
+        </div>
+        <p class="section-note">Tag @VELORASKINCARE to be featured on our curated editorial stream.</p>
+      </div>
+
+      <div class="social-grid">
+        <div class="social-item fade-up">
+          <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=600&q=80" alt="Velora Dropper Lifestyle" loading="lazy" />
+          <div class="social-overlay"><span>@velora</span></div>
+        </div>
+        <div class="social-item fade-up">
+          <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80" alt="Skincare Glow Shot" loading="lazy" />
+          <div class="social-overlay"><span>@velora</span></div>
+        </div>
+        <div class="social-item fade-up">
+          <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80" alt="Bath and Serum Aesthetics" loading="lazy" />
+          <div class="social-overlay"><span>@velora</span></div>
+        </div>
+        <div class="social-item fade-up">
+          <img src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=600&q=80" alt="Clean Minimalist Portrait" loading="lazy" />
+          <div class="social-overlay"><span>@velora</span></div>
+        </div>
+        <div class="social-item fade-up">
+          <img src="https://images.unsplash.com/photo-1608248597359-25f0a8db68a7?auto=format&fit=crop&w=600&q=80" alt="Dew Drops Cream Detail" loading="lazy" />
+          <div class="social-overlay"><span>@velora</span></div>
+        </div>
+        <div class="social-item fade-up">
+          <img src="https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?auto=format&fit=crop&w=600&q=80" alt="Morning Skincare Light" loading="lazy" />
+          <div class="social-overlay"><span>@velora</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. NEWSLETTER SECTION -->
+  <section class="newsletter-section">
+    <div class="newsletter-container fade-up">
+      <span class="eyebrow">INSIDER PRIVILEGES</span>
+      <h2 class="serif-title">STAY GLOWING.</h2>
+      <p class="news-lead">Sign up for skincare secrets, private product drops, and 15% off your initial order.</p>
+      
+      <form class="newsletter-form" id="newsletter-form">
+        <input type="email" placeholder="Enter your email address..." required aria-label="Email address" />
+        <button type="submit" class="btn btn-primary">JOIN THE LIST</button>
+      </form>
+      <span class="form-feedback" id="newsletter-msg"></span>
+    </div>
+  </section>
+
+  <!-- 13. FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">VELORA</span>
+          <p>Elevating daily rituals through pure botanical science and modern sensual minimalism.</p>
+        </div>
+        <div class="footer-nav-col">
+          <h4>COLLECTIONS</h4>
+          <a href="#shop">Serums & Treatments</a>
+          <a href="#shop">Moisturizers & Balms</a>
+          <a href="#shop">Cleansers</a>
+          <a href="#shop">Oils & Elixirs</a>
+        </div>
+        <div class="footer-nav-col">
+          <h4>COMPANY</h4>
+          <a href="#philosophy">Our Philosophy</a>
+          <a href="#ingredients">Ingredients Index</a>
+          <a href="#">Sustainability</a>
+          <a href="#">Press & Editorial</a>
+        </div>
+        <div class="footer-nav-col">
+          <h4>CONNECT</h4>
+          <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener">TikTok</a>
+          <a href="#">Contact Us</a>
+          <a href="#">VIP Concierge</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 VELORA. ALL RIGHTS RESERVED.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MINIMAL SHOPPING DRAWER MODAL -->
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3>YOUR BAG (<span id="drawer-count">0</span>)</h3>
+      <button class="close-drawer" id="close-drawer">&times;</button>
+    </div>
+    <div class="cart-items" id="cart-items">
+      <p class="empty-cart-msg">Your shopping bag is empty.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Subtotal</span>
+        <span id="cart-total-price">$0.00</span>
+      </div>
+      <button class="btn btn-primary checkout-btn" onclick="alert('Checkout integration ready for Stripe or Razorpay!')">PROCEED TO CHECKOUT</button>
+    </div>
+  </div>
+  <div class="cart-backdrop" id="cart-backdrop"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
